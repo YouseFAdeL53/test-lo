@@ -1,0 +1,2264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="CSS/splide-core.min.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- Start Header -->
+  <div class="header shadow-sm rounded">
+    <div class="container-fluid">
+      <div class="box d-flex align-items-center justify-content-between">
+        <div class="left-section d-flex align-items-center">
+          <a href="index.html" class="brand">
+            <img src="image/logo.svg" alt="">
+          </a>
+          <form action="#" class="rounded position-relative ms-4  d-none d-lg-flex">
+            <i class="fa-solid fa-magnifying-glass" id="search"></i>
+            <input type="text" placeholder="Search">
+          </form>
+        </div>
+        <!-- Nav Links -->
+        <nav class="ms-auto">
+          <i class="fas fa-bars toggle-menu toggle d-sm-flex d-lg-none" onclick="changeicon(this)"></i>
+          <ul class="links d-flex mb-0 p-0 d-lg-flex">
+            <!-- Form -->
+            <form action="#" class="rounded position-relative d-sm-flex d-lg-none ps-1 mb-2 text-center mt-3">
+              <i class="fa-solid fa-magnifying-glass" id="search"></i>
+              <input type="text" placeholder="Search">
+            </form>
+            <!-- End Form -->
+            <!-- Test -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Home
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item active" href="#">Home Default</a></li>
+                <li><a class="dropdown-item" href="#">Home Classic</a></li>
+                <li><a class="dropdown-item" href="#">Home Post</a></li>
+                <li><a class="dropdown-item" href="#">Home Video</a></li>
+                <li><a class="dropdown-item" href="#">Home Event</a></li>
+                <li><a class="dropdown-item" href="#">Landing Page</a></li>
+                <li><a class="dropdown-item" href="#">App Download</a></li>
+              </ul>
+            </li>
+            <!-- Start - 2 -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Pages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item active" href="#">Albums</a></li>
+                <li><a class="dropdown-item" href="#">Messaging</a></li>
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><a class="dropdown-item" href="#">Event 2</a></li>
+                <li><a class="dropdown-item" href="#">Groups</a></li>
+                <li><a class="dropdown-item" href="#">Pages</a></li>
+                <li><a class="dropdown-item" href="#">Post Video</a></li>
+              </ul>
+            </li>
+            <!-- Start - 3 -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Acount
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item active" href="#">Create A Page</a></li>
+                <li><a class="dropdown-item" href="#">Setting</a></li>
+                <li><a class="dropdown-item" href="#">Notifications</a></li>
+                <li><a class="dropdown-item" href="#">Help Details</a></li>
+                <li><a class="dropdown-item" href="#">Offline</a></li>
+                <li><a class="dropdown-item" href="#">Error 404</a></li>
+                <li><a class="dropdown-item" href="#">Privacy & terms</a></li>
+              </ul>
+            </li>
+            <!-- Start 4 -->
+            <li>
+              <a href="#" class="nav-link">
+                My Network
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="info d-flex align-items-center p-0 mb-0">
+          <li>
+            <a href="#">
+              <i class="fa-regular fa-message"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-gear"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-regular fa-bell"></i>
+            </a>
+          </li>
+          <li>
+            <img src="image/user.jpg" alt="">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End Header -->
+  <!-- Start Content -->
+  <div class="container-fluid mt-4">
+    <div class="row">
+      <!-- Right -->
+      <div class="col-12 col-md-12 col-lg-3">
+        <i class="fa-solid fa-bars-staggered menu d-lg-none d-sm-flex" id="content-menu"></i>
+        <div class="content sticky-top">
+          <i class="fa-regular fa-circle-xmark d-lg-none d-sm-flex" id="Exit"></i>
+          <div class="box text-center">
+            <div class="image w-100 position-relative">
+              <img class="first" src="image/bg-user.jpg" alt="">
+              <img class="second" src="image/user.jpg" alt="">
+            </div>
+            <div class="text pt-5">
+              <h2>YouseF AdeL</h2>
+              <span>Front End Developer</span>
+              <p>
+                I'd love to change the world, but they won’t give me the source code.
+              </p>
+            </div>
+            <div class="details d-flex align-items-center justify-content-center mb-3">
+              <div class="follow">
+                <h3>256</h3>
+                <span>Post</span>
+              </div>
+              <div class="follow">
+                <h3>2.5K</h3>
+                <span>Followers</span>
+              </div>
+              <div class="follow">
+                <h3>356</h3>
+                <span>Following</span>
+              </div>
+            </div>
+          </div>
+          <!-- End -Box -->
+          <div class="side pt-3">
+            <ul class="info-srv">
+              <li>
+                <div class="content-srv d-flex align-items-center justify-content-start mb-3">
+                  <a href="#">
+                    <img src="image/feed.svg" alt="">
+                  </a>
+                  <h2 class="active">Feed</h2>
+                </div>
+              </li>
+              <li>
+                <div class="content-srv d-flex align-items-center justify-content-start mb-3">
+                  <a href="#">
+                    <img src="image/connection.svg" alt="">
+                  </a>
+                  <h2>Connections</h2>
+                </div>
+              </li>
+              <li>
+                <div class="content-srv d-flex align-items-center justify-content-start mb-3">
+                  <a href="#">
+                    <img src="image/latest world.svg" alt="">
+                  </a>
+                  <h2>Latest-News</h2>
+                </div>
+              </li>
+              <li>
+                <div class="content-srv d-flex align-items-center justify-content-start mb-3">
+                  <a href="#">
+                    <img src="image/events.svg" alt="">
+                  </a>
+                  <h2>Events</h2>
+                </div>
+              </li>
+              <li>
+                <div class="content-srv d-flex align-items-center justify-content-start mb-3">
+                  <a href="#">
+                    <img src="image/group.svg" alt="">
+                  </a>
+                  <h2>Groups</h2>
+                </div>
+              </li>
+              <div class="content-srv d-flex align-items-center justify-content-start mb-3">
+                <a href="#">
+                  <img src="image/notifigation.svg" alt="">
+                </a>
+                <h2>Notifications</h2>
+              </div>
+              </li>
+              <div class="content-srv d-flex align-items-center justify-content-start">
+                <a href="#">
+                  <img src="image/setting.svg" alt="">
+                </a>
+                <h2>Setting</h2>
+              </div>
+              </li>
+            </ul>
+          </div>
+          <a href="#" class="view">
+            View Profile
+          </a>
+          <ul class="user-info pt-3  d-lg-none d-sm-flex">
+            <li>About</li>
+            <li>Setting</li>
+            <li>Support</li>
+            <li>Docus</li>
+            <li>Help</li>
+            <li>Privacy & terms</li>
+          </ul>
+          <p class="copyright d-lg-none d-sm-block pt-3">©2022 <span>YouseF AdeL</span></p>
+        </div>
+        <ul class="user-info pt-3 d-none d-lg-flex p-3P">
+          <li>About</li>
+          <li>Setting</li>
+          <li>Support</li>
+          <li>Docus</li>
+          <li>Help</li>
+          <li>Privacy & terms</li>
+        </ul>
+        <p class="copyright d-none d-lg-block">©2022 <span>YouseF AdeL</span></p>
+      </div>
+      <!-- Middle -->
+      <div class="col-12 col-md-12 col-lg-6">
+        <!-- Start head-top -->
+        <div class="head-top text-center">
+          <!-- Swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="box-head">
+                  <div class="image">
+                    <img src="image/person-6.jpg" alt="">
+                  </div>
+                  <div class="text">
+                    <h4>YouseF AdeL</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box-head">
+                  <div class="image">
+                    <img src="image/person-7.jpg" alt="">
+                  </div>
+                  <div class="text">
+                    <h4>Somia</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box-head">
+                  <div class="image">
+                    <img src="image/person-5.jpg" alt="">
+                  </div>
+                  <div class="text">
+                    <h4>Somia</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box-head">
+                  <div class="image">
+                    <img src="image/person-3.jpg" alt="">
+                  </div>
+                  <div class="text">
+                    <h4>Yara</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box-head">
+                  <div class="image">
+                    <img src="image/person-8.jpg" alt="">
+                  </div>
+                  <div class="text">
+                    <h4>Yehia</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box-head">
+                  <div class="image">
+                    <img src="image/person-4.jpg" alt="">
+                  </div>
+                  <div class="text">
+                    <h4>Shahd</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+        <!-- End -->
+        <div class="cards-body">
+          <div class="d-flex">
+            <div class="prof-photo">
+              <img src="image/user.jpg" alt="">
+            </div>
+            <form action="#" class="w-100">
+              <textarea placeholder="Share your thoughts..."></textarea>
+            </form>
+          </div>
+          <div class="d-flex">
+            <div class="box d-flex align-items-center info-box">
+              <div class="image">
+                <img src="image/image.png" alt="">
+              </div>
+              <h2>Photos</h2>
+            </div>
+            <div class="box d-flex align-items-center info-box">
+              <div class="image">
+                <img src="image/video.png" alt="">
+              </div>
+              <h2>Videos</h2>
+            </div>
+            <div class="box d-flex align-items-center info-box">
+              <div class="image">
+                <img src="image/event.png" alt="">
+              </div>
+              <h2>Events</h2>
+            </div>
+            <div class="box d-flex align-items-center info-box">
+              <div class="image">
+                <img src="image/happy.png" alt="">
+              </div>
+              <h2>Feeling / Activity</h2>
+            </div>
+            <a href="#" class="btn btn-primary" id="post">
+              Post
+            </a>
+          </div>
+        </div>
+        <!-- Start User-Details-1 -->
+        <div class="user-details mb-3">
+          <div class="user-top d-flex align-items-center">
+            <div class="image">
+              <img src="image/user.jpg" alt="">
+            </div>
+            <div class="text">
+              <h3>YouseF AdeL</h3>
+              <span>
+                1 Minute Ago
+              </span>
+            </div>
+            <div class="icon ms-auto position-relative">
+              <i class="fa-solid fa-ellipsis" id="dots"></i>
+              <ul class="warn">
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-regular fa-bookmark"></i>
+                    </a>
+                    <div class="text">
+                      <h2>Save Post</h2>
+                      <span>
+                        Add this to your saved items.
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-regular fa-bell"></i>
+                    </a>
+                    <div class="text">
+                      <h2>
+                        Turn on notifications for this post
+                      </h2>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-solid fa-code"></i>
+                    </a>
+                    <div class="text">
+                      <h2>Embed</h2>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-solid fa-triangle-exclamation"></i>
+                    </a>
+                    <div class="text">
+                      <h2>Report post</h2>
+                      <span>
+                        I'm concerned about this post.
+                      </span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- End User-Details -->
+          <!-- start User-content -->
+          <div class="user-content pt-2">
+            <p class="arabic">
+              أفضل بداية ليومك هو الصلاة والسلام على رسول الله
+            </p>
+            <img src="image/user-post-2.jpg" alt="">
+            <div class="like-content d-flex align-items-center pb-2">
+              <div class="right-likes">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <i class="fa-solid fa-heart"></i>
+                <span>9.5K</span>
+              </div>
+              <div class="left-likes d-flex align-items-center ms-auto">
+                <div class="comment d-flex align-items-center me-2">
+                  <span>450</span>
+                  <p>Comments</p>
+                </div>
+                <div class="comment d-flex align-items-center">
+                  <span>250</span>
+                  <p>Shares</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- start User-content -->
+          <!-- Start pop-likes -->
+          <div class="pop-likes pt-2 pb-2">
+            <div class="d-flex">
+              <div class="box-likes d-flex align-items-center justify-content-center">
+                <a href="#">
+                  <i class="fa-regular fa-thumbs-up"></i>
+                </a>
+                <h2>Like</h2>
+              </div>
+              <div class="box-likes d-flex align-items-center justify-content-center">
+                <a href="#">
+                  <i class="fa-regular fa-comment"></i> </a>
+                <h2>Comment</h2>
+              </div>
+              <div class="box-likes d-flex align-items-center justify-content-center">
+                <a href="#">
+                  <i class="fa-solid fa-share"></i>
+                </a>
+                <h2>Share</h2>
+              </div>
+            </div>
+          </div>
+          <!-- End pop-likes -->
+          <!-- Start user-replay -->
+          <div class="user-replay pt-4">
+            <div class="collection d-flex align-items-center">
+              <div class="image">
+                <img src="image/user.jpg" alt="">
+              </div>
+              <form action="#" class="w-100 position-relative">
+                <input type="text" placeholder="Write A Comment...">
+                <div class="icons">
+                  <i class="fa-solid fa-camera"></i>
+                  <i class="fa-solid fa-note-sticky"></i>
+                  <i class="fa-regular fa-face-smile"></i>
+                  <i class="fa-regular fa-image"></i>
+                </div>
+              </form>
+            </div>
+            <!-- Start Replay -->
+            <div class="replay pt-3">
+              <div class="replay-srv d-flex align-items-start mt-2">
+                <div class="image"><img src="image/user-1.jpg" alt=""></div>
+                <div class="text">
+                  <h2>Somia</h2>
+                  <p class="arabic">
+                    اللهم صل و سلم و بارك علي سيدنا و حبيبنا و رسولنا ونبينا الكريم شفيعنا يوم القيامة اشرف الخلق من بكي
+                    شوقا لرؤيتنا سيدنا
+                    و رسولنا و نبينا الكريم اشرف الخلق محمد عليه افضل الصلاة و السلام و علي آله و صحبه اجمعين
+                    ❤❤❤❤🤲🤲🤲🤲🤲🤲❤❤❤❤❤❤🤲🤲🤲🤲
+                  </p>
+                </div>
+              </div>
+              <div class="likly">
+                <span>Like</span>
+                <span>Replay</span>
+              </div>
+              <!-- Test -->
+              <div class="replay-srv d-flex align-items-start mt-2">
+                <div class="image"><img src="image/Person-8.jpg" alt=""></div>
+                <div class="text">
+                  <h2>Yehia</h2>
+                  <p class="arabic">
+                    اللهم صلي وسلم وبارك على سيدنا ونبينا محمد وعلى اله وصحبه وسلم
+                  </p>
+                </div>
+              </div>
+              <div class="likly">
+                <span>Like</span>
+                <span>Replay</span>
+              </div>
+              <!-- End Test -->
+              <!-- Test -->
+              <div class="replay-srv d-flex align-items-start mt-2">
+                <div class="image"><img src="image/user-3.jpg" alt=""></div>
+                <div class="text">
+                  <h2>Shahd</h2>
+                  <p class="arabic">
+                    اللهم صلي علي سيدنا محمد صلاة تحسن بها الاخلاق وتيسر بها الارزاق وتدفع بها المشاق وتملاء منها الافاق
+                    وعلي اله وصحبه وسلم
+                    صلاة دائمة من يوم خلقت الدنيا الي يوم التلاق ياعزيز ياخلاق 🌎🖤
+                  </p>
+                </div>
+              </div>
+              <div class="likly">
+                <span>Like</span>
+                <span>Replay</span>
+              </div>
+              <!-- End Test -->
+              <!-- Test -->
+              <div class="replay-srv d-flex align-items-start mt-2">
+                <div class="image"><img src="image/user-2.jpg" alt=""></div>
+                <div class="text">
+                  <h2>Nasser</h2>
+                  <p class="arabic">
+                    اللهم صلي علي سيدنا محمد وعلي اله وصحبه وسلم تسليما كثيرا
+                  </p>
+                </div>
+              </div>
+              <div class="likly">
+                <span>Like</span>
+                <span>Replay</span>
+              </div>
+              <!-- End Test -->
+              <p class="replay-view">
+                View 200 more comments
+              </p>
+              <!-- End Replay -->
+            </div>
+            <!-- End user-replay -->
+          </div>
+        </div>
+        <!-- End User-Detail -->
+        <!-- Start User-Details-1 -->
+        <div class="user-details mb-3">
+          <div class="user-top d-flex align-items-center">
+            <div class="image">
+              <img src="image/user-info-1.jpg" alt="">
+            </div>
+            <div class="text">
+              <h3>Osama Mohamed</h3>
+              <span>
+                September 5 at 6:43 PM
+              </span>
+            </div>
+            <div class="icon ms-auto position-relative">
+              <i class="fa-solid fa-ellipsis" id="dots"></i>
+              <ul class="warn">
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-regular fa-bookmark"></i>
+                    </a>
+                    <div class="text">
+                      <h2>Save Post</h2>
+                      <span>
+                        Add this to your saved items.
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-regular fa-bell"></i>
+                    </a>
+                    <div class="text">
+                      <h2>
+                        Turn on notifications for this post
+                      </h2>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-solid fa-code"></i>
+                    </a>
+                    <div class="text">
+                      <h2>Embed</h2>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-solid fa-triangle-exclamation"></i>
+                    </a>
+                    <div class="text">
+                      <h2>Report post</h2>
+                      <span>
+                        I'm concerned about this post.
+                      </span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- End User-Details -->
+          <!-- start User-content -->
+          <div class="user-content pt-2">
+            <p class="arabic">
+              ليه بتتعلم تعمل آلة حاسبة ولعبة Memory Game و Barcode Scanner وانت بتتعلم JavaScript مثلا ؟ هل الشركة لما
+              تشتغل فيها
+              هتطلب منك الكلام دة ؟
+              --
+              مش شرط خالص وممكن كل اللي بتعمله في التطبيقات دة متقابلوش في حياتك وكتير في المشكلات البرمجية هتلاقي حاجات
+              مثلا في
+              الرياضيات أو معادلات ممكن متقابلهاش في حياتك خالص. طيب ليه بنتعلمها ؟ علشان حضرتك بعد ما بتتعلم نظري محتاج
+              توظف اللي
+              إتعلمته دة وتطور عندك ال Logic ودة علشان يتعمل مش بيتعمل بموقع كبير و System كامل في بداية حياتك وانت
+              بتتعلم.
+              --
+              لازم تبدأ خطوة خطوة كل حاجة بتتعلمها نظري تطبق عليها وتوظف اللي إتعلمته بحاجات بسيطة في الأول وبعد كدة
+              بتجمع العلم دة
+              كله في تطبيقات عملية كبيرة زي System كامل وتبدأ تعمل الشغل اللي هتعمله لما ربنا يكرمك وتشتغل فعلا.
+              --
+              خلي التطبيق مستويات ومتفتكرش لما تبدأ بحاجة كبيرة انك هتبقى كبير زيها لأ بالعكس هيقع منك حاجات كتير لو
+              ممشتش خطوة خطوة
+              وهتتعقد وتحس ان الحاجة صعبة لكنها مش صعبة هي كانت عاوزة تتقسم وتمشي بطريقة مرتبة.
+              <span>#نصائح_الزيرو</span>
+            </p>
+            <div class="like-content d-flex align-items-center pb-2">
+              <div class="right-likes">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <i class="fa-solid fa-heart"></i>
+                <span>1.5K</span>
+              </div>
+              <div class="left-likes d-flex align-items-center ms-auto">
+                <div class="comment d-flex align-items-center me-2">
+                  <span>41</span>
+                  <p>Comments</p>
+                </div>
+                <div class="comment d-flex align-items-center">
+                  <span>51</span>
+                  <p>Shares</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- start User-content -->
+          <!-- Start pop-likes -->
+          <div class="pop-likes pt-2 pb-2">
+            <div class="d-flex">
+              <div class="box-likes d-flex align-items-center justify-content-center">
+                <a href="#">
+                  <i class="fa-regular fa-thumbs-up"></i>
+                </a>
+                <h2>Like</h2>
+              </div>
+              <div class="box-likes d-flex align-items-center justify-content-center">
+                <a href="#">
+                  <i class="fa-regular fa-comment"></i> </a>
+                <h2>Comment</h2>
+              </div>
+              <div class="box-likes d-flex align-items-center justify-content-center">
+                <a href="#">
+                  <i class="fa-solid fa-share"></i>
+                </a>
+                <h2>Share</h2>
+              </div>
+            </div>
+          </div>
+          <!-- End pop-likes -->
+          <!-- Start user-replay -->
+          <div class="user-replay pt-4">
+            <div class="collection d-flex align-items-center">
+              <div class="image">
+                <img src="image/user.jpg" alt="">
+              </div>
+              <form action="#" class="w-100 position-relative">
+                <input type="text" placeholder="Write A Comment...">
+                <div class="icons">
+                  <i class="fa-solid fa-camera"></i>
+                  <i class="fa-solid fa-note-sticky"></i>
+                  <i class="fa-regular fa-face-smile"></i>
+                  <i class="fa-regular fa-image"></i>
+                </div>
+              </form>
+            </div>
+            <!-- Start Replay -->
+            <div class="replay pt-3">
+              <div class="replay-srv d-flex align-items-start">
+                <div class="image"><img src="image/user.jpg" alt=""></div>
+                <div class="text">
+                  <h2>YouseF AdeL</h2>
+                  <p class="arabic">
+                    هندسه لو انا بدرس front end ولسا فى الأول وحابب اقوى جزء ال logic وال problem solving اشتغل عليهم
+                    بلغة ايه ؟
+                    انا عندى معرفة بال c++ بسبب انى درست cs50 بس مش عايز ادخل الدنيا فى بعضها تنصحنى بايه ؟
+                  </p>
+                </div>
+              </div>
+              <div class="likly">
+                <span>Like</span>
+                <span>Replay</span>
+              </div>
+              <div class="replay-comment d-flex pt-3">
+                <div class="image">
+                  <img src="image/user-info-1.jpg" alt="">
+                </div>
+                <div class="text">
+                  <h2>Osama Mohamed</h2>
+                  <p><span>YouseF AdeL</span>
+                    اللوجيك بيتطور بأي لغة
+                    حل المشكلة هو اللوجيك
+                  </p>
+                </div>
+              </div>
+              <div class="likly likly-two">
+                <span>Like</span>
+                <span>Replay</span>
+              </div>
+            </div>
+            <p class="replay-view">
+              View 15 more comments
+            </p>
+            <!-- End Replay -->
+          </div>
+          <!-- End user-replay -->
+        </div>
+        <!-- End User-Detail-1 -->
+        <!-- User-Detail-2 -->
+        <div class="user-details mb-3">
+          <div class="user-top d-flex align-items-center">
+            <div class="image">
+              <img src="image/user-info-2.jpg" alt="">
+            </div>
+            <div class="text">
+              <h3>Mohamed ibraheem</h3>
+              <span>
+                September 2 at 7:09 PM
+              </span>
+            </div>
+            <div class="icon ms-auto position-relative">
+              <i class="fa-solid fa-ellipsis" id="dots"></i>
+              <ul class="warn">
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-regular fa-bookmark"></i>
+                    </a>
+                    <div class="text">
+                      <h2>Save Post</h2>
+                      <span>
+                        Add this to your saved items.
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-regular fa-bell"></i>
+                    </a>
+                    <div class="text">
+                      <h2>
+                        Turn on notifications for this post
+                      </h2>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-solid fa-code"></i>
+                    </a>
+                    <div class="text">
+                      <h2>Embed</h2>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-solid fa-triangle-exclamation"></i>
+                    </a>
+                    <div class="text">
+                      <h2>Report post</h2>
+                      <span>
+                        I'm concerned about this post.
+                      </span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- End User-Details -->
+          <!-- start User-content -->
+          <div class="user-content pt-2">
+            <p class="arabic">
+              من الفرج اللى الناس مبتاخدش بالها منه
+              ان ربنا يخفف عنك شعورك بالألم في وسط المصيبة
+              أو تشوف حاجة انت مكنتش شايفها تخليك ترضى وتصبر
+              الحمد لله على كرمه
+            </p>
+            <div class="like-content d-flex align-items-center pb-2">
+              <div class="right-likes">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <i class="fa-solid fa-heart"></i>
+                <span>6.5K</span>
+              </div>
+              <div class="left-likes d-flex align-items-center ms-auto">
+                <div class="comment d-flex align-items-center me-2">
+                  <span>152</span>
+                  <p>Comments</p>
+                </div>
+                <div class="comment d-flex align-items-center">
+                  <span>850</span>
+                  <p>Shares</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- start User-content -->
+          <!-- Start pop-likes -->
+          <div class="pop-likes pt-2 pb-2">
+            <div class="d-flex">
+              <div class="box-likes d-flex align-items-center justify-content-center">
+                <a href="#">
+                  <i class="fa-regular fa-thumbs-up"></i>
+                </a>
+                <h2>Like</h2>
+              </div>
+              <div class="box-likes d-flex align-items-center justify-content-center">
+                <a href="#">
+                  <i class="fa-regular fa-comment"></i> </a>
+                <h2>Comment</h2>
+              </div>
+              <div class="box-likes d-flex align-items-center justify-content-center">
+                <a href="#">
+                  <i class="fa-solid fa-share"></i>
+                </a>
+                <h2>Share</h2>
+              </div>
+            </div>
+          </div>
+          <!-- End pop-likes -->
+          <!-- Start user-replay -->
+          <div class="user-replay pt-4">
+            <div class="collection d-flex align-items-center">
+              <div class="image">
+                <img src="image/user.jpg" alt="">
+              </div>
+              <form action="#" class="w-100 position-relative">
+                <input type="text" placeholder="Write A Comment...">
+                <div class="icons">
+                  <i class="fa-solid fa-camera"></i>
+                  <i class="fa-solid fa-note-sticky"></i>
+                  <i class="fa-regular fa-face-smile"></i>
+                  <i class="fa-regular fa-image"></i>
+                </div>
+              </form>
+            </div>
+            <!-- Start Replay -->
+            <div class="replay pt-3">
+              <div class="replay-srv d-flex align-items-start mt-2">
+                <div class="image"><img src="image/user-1.jpg" alt=""></div>
+                <div class="text">
+                  <h2>Somia</h2>
+                  <p class="arabic">
+                    الحمدلله رب العالمين
+                  </p>
+                </div>
+              </div>
+              <div class="likly">
+                <span>Like</span>
+                <span>Replay</span>
+              </div>
+              <!-- Test -->
+              <div class="replay-srv d-flex align-items-start mt-2">
+                <div class="image"><img src="image/user.jpg" alt=""></div>
+                <div class="text">
+                  <h2>YouseF AdeL</h2>
+                  <p class="arabic">
+                    اللهم لك الحمد حتى ترضى
+                  </p>
+                </div>
+              </div>
+              <div class="likly">
+                <span>Like</span>
+                <span>Replay</span>
+              </div>
+              <!-- End Test -->
+              <!-- Test -->
+              <div class="replay-srv d-flex align-items-start mt-2">
+                <div class="image"><img src="image/user-3.jpg" alt=""></div>
+                <div class="text">
+                  <h2>Shahd</h2>
+                  <p class="arabic">
+                    الحمدلله
+                  </p>
+                </div>
+              </div>
+              <div class="likly">
+                <span>Like</span>
+                <span>Replay</span>
+              </div>
+              <!-- End Test -->
+              <!-- Test -->
+              <div class="replay-srv d-flex align-items-start mt-2">
+                <div class="image"><img src="image/user-2.jpg" alt=""></div>
+                <div class="text">
+                  <h2>Nasser</h2>
+                  <p class="arabic">
+                    اللهم لك الحمد
+                  </p>
+                </div>
+              </div>
+              <div class="likly">
+                <span>Like</span>
+                <span>Replay</span>
+              </div>
+              <!-- End Test -->
+              <p class="replay-view">
+                View 156 more comments
+              </p>
+              <!-- End Replay -->
+            </div>
+            <!-- End user-replay -->
+          </div>
+          <!-- End User-Details -2 -->
+        </div>
+        <!-- End-User-Detail-2 -->
+        <!-- User-Detail-3 -->
+        <div class="user-details mb-3">
+          <div class="user-top d-flex align-items-center">
+            <div class="image">
+              <img class="bor-imp" src="image/user-info-3.jpg" alt="">
+            </div>
+            <div class="text">
+              <h3>Magicano</h3>
+              <span>
+                6 hours ago
+              </span>
+            </div>
+            <div class="icon ms-auto position-relative">
+              <i class="fa-solid fa-ellipsis" id="dots"></i>
+              <ul class="warn">
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-regular fa-bookmark"></i>
+                    </a>
+                    <div class="text">
+                      <h2>Save Post</h2>
+                      <span>
+                        Add this to your saved items.
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-regular fa-bell"></i>
+                    </a>
+                    <div class="text">
+                      <h2>
+                        Turn on notifications for this post
+                      </h2>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-solid fa-code"></i>
+                    </a>
+                    <div class="text">
+                      <h2>Embed</h2>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-solid fa-triangle-exclamation"></i>
+                    </a>
+                    <div class="text">
+                      <h2>Report post</h2>
+                      <span>
+                        I'm concerned about this post.
+                      </span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- End User-Details -->
+          <!-- start User-content -->
+          <div class="user-content pt-2">
+            <p class="arabic">
+              نعمة كبيرة تستحق الحمد .. صلى الله على من آوتى جوامع الكلم
+            </p>
+            <img src="image/user-post.jpg" alt="">
+            <div class="like-content d-flex align-items-center pb-2">
+              <div class="right-likes">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <i class="fa-solid fa-heart"></i>
+                <span>8.5K</span>
+              </div>
+              <div class="left-likes d-flex align-items-center ms-auto">
+                <div class="comment d-flex align-items-center me-2">
+                  <span>358</span>
+                  <p>Comments</p>
+                </div>
+                <div class="comment d-flex align-items-center">
+                  <span>1080</span>
+                  <p>Shares</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- start User-content -->
+          <!-- Start pop-likes -->
+          <div class="pop-likes pt-2 pb-2">
+            <div class="d-flex">
+              <div class="box-likes d-flex align-items-center justify-content-center">
+                <a href="#">
+                  <i class="fa-regular fa-thumbs-up"></i>
+                </a>
+                <h2>Like</h2>
+              </div>
+              <div class="box-likes d-flex align-items-center justify-content-center">
+                <a href="#">
+                  <i class="fa-regular fa-comment"></i> </a>
+                <h2>Comment</h2>
+              </div>
+              <div class="box-likes d-flex align-items-center justify-content-center">
+                <a href="#">
+                  <i class="fa-solid fa-share"></i>
+                </a>
+                <h2>Share</h2>
+              </div>
+            </div>
+          </div>
+          <!-- End pop-likes -->
+          <!-- Start user-replay -->
+          <div class="user-replay pt-4">
+            <div class="collection d-flex align-items-center">
+              <div class="image">
+                <img src="image/user.jpg" alt="">
+              </div>
+              <form action="#" class="w-100 position-relative">
+                <input type="text" placeholder="Write A Comment...">
+                <div class="icons">
+                  <i class="fa-solid fa-camera"></i>
+                  <i class="fa-solid fa-note-sticky"></i>
+                  <i class="fa-regular fa-face-smile"></i>
+                  <i class="fa-regular fa-image"></i>
+                </div>
+              </form>
+            </div>
+            <!-- Start Replay -->
+            <div class="replay pt-3">
+              <div class="replay-srv d-flex align-items-start mt-2">
+                <div class="image"><img src="image/user-1.jpg" alt=""></div>
+                <div class="text">
+                  <h2>Somia</h2>
+                  <p class="arabic">
+                    عـلـيـه أفـضـل الـصــلاة و الـســلام
+                  </p>
+                </div>
+              </div>
+              <div class="likly">
+                <span>Like</span>
+                <span>Replay</span>
+              </div>
+              <!-- Test -->
+              <div class="replay-srv d-flex align-items-start mt-2">
+                <div class="image"><img src="image/user.jpg" alt=""></div>
+                <div class="text">
+                  <h2>YouseF AdeL</h2>
+                  <p class="arabic">
+                    صلي الله عليه وسلم ❤️
+                  </p>
+                </div>
+              </div>
+              <div class="likly">
+                <span>Like</span>
+                <span>Replay</span>
+              </div>
+              <!-- End Test -->
+              <!-- Test -->
+              <div class="replay-srv d-flex align-items-start mt-2">
+                <div class="image"><img src="image/user-3.jpg" alt=""></div>
+                <div class="text">
+                  <h2>Shahd</h2>
+                  <p class="arabic">
+                    اللهم صلي علي سيدنا محمد صلاة تحسن بها الاخلاق وتيسر بها الارزاق وتدفع بها المشاق وتملاء منها الافاق
+                    وعلي اله وصحبه وسلم
+                    صلاة دائمة من يوم خلقت الدنيا الي يوم التلاق ياعزيز ياخلاق 🌎🖤
+                  </p>
+                </div>
+              </div>
+              <div class="likly">
+                <span>Like</span>
+                <span>Replay</span>
+              </div>
+              <!-- End Test -->
+              <!-- Test -->
+              <div class="replay-srv d-flex align-items-start mt-2">
+                <div class="image"><img src="image/user-2.jpg" alt=""></div>
+                <div class="text">
+                  <h2>Nasser</h2>
+                  <p class="arabic">
+                    صلي الله عليه وسلم ❤️
+                  </p>
+                </div>
+              </div>
+              <div class="likly">
+                <span>Like</span>
+                <span>Replay</span>
+              </div>
+              <!-- End Test -->
+              <p class="replay-view">
+                View 200 more comments
+              </p>
+              <!-- End Replay -->
+            </div>
+            <!-- End user-replay -->
+          </div>
+          <!-- End User-Details -2 -->
+        </div>
+        <!-- End User-Detail-3 -->
+        <!-- User-Detail-4 -->
+        <div class="user-details mb-3">
+          <div class="user-top d-flex align-items-center">
+            <div class="image">
+              <img class="bor-imp" src="image/user-info-4.jpg" alt="">
+            </div>
+            <div class="text">
+              <h3>Masterpieces</h3>
+              <span>
+                6 hours ago
+              </span>
+            </div>
+            <div class="icon ms-auto position-relative">
+              <i class="fa-solid fa-ellipsis" id="dots"></i>
+              <ul class="warn">
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-regular fa-bookmark"></i>
+                    </a>
+                    <div class="text">
+                      <h2>Save Post</h2>
+                      <span>
+                        Add this to your saved items.
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-regular fa-bell"></i>
+                    </a>
+                    <div class="text">
+                      <h2>
+                        Turn on notifications for this post
+                      </h2>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-solid fa-code"></i>
+                    </a>
+                    <div class="text">
+                      <h2>Embed</h2>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-solid fa-triangle-exclamation"></i>
+                    </a>
+                    <div class="text">
+                      <h2>Report post</h2>
+                      <span>
+                        I'm concerned about this post.
+                      </span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- End User-Details -->
+          <!-- start User-content -->
+          <div class="user-content pt-2">
+            <p class="arabic">
+              انا يحبك زينب
+              <br>
+              =هو بالكلام يا خواجة ؟! الكلام سهل
+              <br>
+              -امال بإيه الحب زينب ؟؟
+              <br>
+              =الحب ؟! معرفش ، لكن اللي أعرفه اني جيت أشوف تقدر تحقق طلباتي ولا لأ
+              <br>
+              =هتقدر ؟؟
+              <br>
+              -هقدر زينب
+              <br>
+              =طيب بص ، عصفور عيتكلم من مصر وفستان خيط فضة وخيط دهب ومية من زمزم .. أشوفك بعافية يا خواجة
+              <br>
+              -زينب ، انا قال شعر عشانك
+              <br>
+              =شعر ؟! كيف ؟!
+              <br>
+              -انا اتعلم وقال
+              <br>
+              =قلت ايه يا خواجة ؟؟
+              <br>
+              -إني أُحبكِ زينبُ .. حب الحبيب لروحهِ .. وبدون حُبكِ زينبُ ..فقد المُحب لروحهِ
+              <br>
+              =انا ؟!
+              <br>
+              -ايوا انت زينب
+              <span>
+                (الخواجة عبد القادر ... ٢٠١٢)
+              </span>
+            </p>
+            <img src="image/user-post-1.jpg" alt="">
+            <div class="like-content d-flex align-items-center pb-2">
+              <div class="right-likes">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <i class="fa-solid fa-heart"></i>
+                <span>1.5K</span>
+              </div>
+              <div class="left-likes d-flex align-items-center ms-auto">
+                <div class="comment d-flex align-items-center me-2">
+                  <span>50</span>
+                  <p>Comments</p>
+                </div>
+                <div class="comment d-flex align-items-center">
+                  <span>100</span>
+                  <p>Shares</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- start User-content -->
+          <!-- Start pop-likes -->
+          <div class="pop-likes pt-2 pb-2">
+            <div class="d-flex">
+              <div class="box-likes d-flex align-items-center justify-content-center">
+                <a href="#">
+                  <i class="fa-regular fa-thumbs-up"></i>
+                </a>
+                <h2>Like</h2>
+              </div>
+              <div class="box-likes d-flex align-items-center justify-content-center">
+                <a href="#">
+                  <i class="fa-regular fa-comment"></i> </a>
+                <h2>Comment</h2>
+              </div>
+              <div class="box-likes d-flex align-items-center justify-content-center">
+                <a href="#">
+                  <i class="fa-solid fa-share"></i>
+                </a>
+                <h2>Share</h2>
+              </div>
+            </div>
+          </div>
+          <!-- End pop-likes -->
+          <!-- Start user-replay -->
+          <div class="user-replay pt-4">
+            <div class="collection d-flex align-items-center">
+              <div class="image">
+                <img src="image/user.jpg" alt="">
+              </div>
+              <form action="#" class="w-100 position-relative">
+                <input type="text" placeholder="Write A Comment...">
+                <div class="icons">
+                  <i class="fa-solid fa-camera"></i>
+                  <i class="fa-solid fa-note-sticky"></i>
+                  <i class="fa-regular fa-face-smile"></i>
+                  <i class="fa-regular fa-image"></i>
+                </div>
+              </form>
+            </div>
+            <!-- Start Replay -->
+            <div class="replay pt-3">
+              <!-- Test -->
+              <div class="replay-srv d-flex align-items-start mt-2">
+                <div class="image"><img src="image/user.jpg" alt=""></div>
+                <div class="text">
+                  <h2>YouseF AdeL</h2>
+                  <p class="">
+                    Masterpiece🧡
+                  </p>
+                </div>
+              </div>
+              <div class="likly">
+                <span>Like</span>
+                <span>Replay</span>
+              </div>
+              <!-- End Test -->
+              <!-- Test -->
+              <div class="replay-srv d-flex align-items-start mt-2">
+                <div class="image"><img src="image/user-3.jpg" alt=""></div>
+                <div class="text">
+                  <h2>Shahd</h2>
+                  <p class="arabic">
+                    🥰🥰🥰🥰
+                  </p>
+                </div>
+              </div>
+              <div class="likly">
+                <span>Like</span>
+                <span>Replay</span>
+              </div>
+              <!-- End Test -->
+              <!-- Test -->
+              <div class="replay-srv d-flex align-items-start mt-2">
+                <div class="image"><img src="image/user-2.jpg" alt=""></div>
+                <div class="text">
+                  <h2>Nasser</h2>
+                  <p class="arabic">
+                    💕
+                  </p>
+                </div>
+              </div>
+              <div class="likly">
+                <span>Like</span>
+                <span>Replay</span>
+              </div>
+              <!-- End Test -->
+              <p class="replay-view">
+                View 200 more comments
+              </p>
+              <!-- End Replay -->
+            </div>
+            <!-- End user-replay -->
+          </div>
+          <!-- End User-Details -4 -->
+        </div>
+        <!-- End User-Detail-4 -->
+        <!-- start people-may -->
+        <div class="people mb-3">
+          <div class="people-see d-flex justify-content-between align-items-center">
+            <h3>People you may know</h3>
+            <button>See All</button>
+          </div>
+          <!-- swiper -->
+          <!-- Swiper -->
+          <div class="swiper mySwiper pt-3">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="box-swiper text-center">
+                  <img src="image/people-1.jpg" alt="">
+                  <div class="text">
+                    <h2>Ahmed</h2>
+                    <button class="btn-home">Add Friend</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box-swiper text-center">
+                  <img src="image/people-2.jpg" alt="">
+                  <div class="text">
+                    <h2>Sara</h2>
+                    <button class="btn-home">Add Friend</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide ">
+                <div class="box-swiper text-center">
+                  <img src="image/people-3.jpg" alt="">
+                  <div class="text">
+                    <h2>Mohamed</h2>
+                    <button class="btn-home">Add Friend</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box-swiper text-center">
+                  <img src="image/people-4.jpg" alt="">
+                  <div class="text">
+                    <h2>Eman</h2>
+                    <button class="btn-home">Add Friend</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box-swiper text-center">
+                  <img src="image/people-6.jpg" alt="">
+                  <div class="text">
+                    <h2>Mostafa</h2>
+                    <button class="btn-home">Add Friend</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box-swiper text-center">
+                  <img src="image/people-5.jpg" alt="">
+                  <div class="text">
+                    <h2>Yassmin</h2>
+                    <button class="btn-home">Add Friend</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+
+          <!-- Swiper JS -->
+          <!-- End Swiper -->
+        </div>
+        <!-- End people-may -->
+        <!-- User-Detail-5 -->
+        <div class="user-details mb-3">
+          <div class="user-top d-flex align-items-center">
+            <div class="image">
+              <img class="bor-imp" src="image/user-info-5.jpg" alt="">
+            </div>
+            <div class="text">
+              <h3>True Trends</h3>
+              <span>
+                2 hours ago
+              </span>
+            </div>
+            <div class="icon ms-auto position-relative">
+              <i class="fa-solid fa-ellipsis" id="dots"></i>
+              <ul class="warn">
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-regular fa-bookmark"></i>
+                    </a>
+                    <div class="text">
+                      <h2>Save Post</h2>
+                      <span>
+                        Add this to your saved items.
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-regular fa-bell"></i>
+                    </a>
+                    <div class="text">
+                      <h2>
+                        Turn on notifications for this post
+                      </h2>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-solid fa-code"></i>
+                    </a>
+                    <div class="text">
+                      <h2>Embed</h2>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-solid fa-triangle-exclamation"></i>
+                    </a>
+                    <div class="text">
+                      <h2>Report post</h2>
+                      <span>
+                        I'm concerned about this post.
+                      </span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- End User-Details -->
+          <!-- start User-content -->
+          <div class="user-content pt-2">
+            <p class="arabic">
+              يحكى أن إعرابيًا في الجاهلية زُفّت إليه عروسه على فرس ، فقام فقت ل تلك الفرس التي ركبت عليها العروس ،
+              فتعجب الجميع من حوله وسألوه عن سرِّ عمله فقال لهم : خشيت أن يركب السائق مكان جلوس زوجتي ولا يزال مكانها
+              دافئًا !.. ..
+              قال سعد بن عبادة : ( لو رأيت رجلا مع امرأتي لضر.ب ته بالسي ف غير مصفح ).
+              فبلغ ذلك النبي صلى الله عليه وسلم فقال: *"أتعجبون من غيرة سعد لأنا أغير منه والله أغير مني </p>
+            <img src="image/user-post-3.jpg" alt="">
+            <div class="like-content d-flex align-items-center pb-2">
+              <div class="right-likes">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <i class="fa-solid fa-heart"></i>
+                <span>2.5K</span>
+              </div>
+              <div class="left-likes d-flex align-items-center ms-auto">
+                <div class="comment d-flex align-items-center me-2">
+                  <span>100</span>
+                  <p>Comments</p>
+                </div>
+                <div class="comment d-flex align-items-center">
+                  <span>150</span>
+                  <p>Shares</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- start User-content -->
+          <!-- Start pop-likes -->
+          <div class="pop-likes pt-2 pb-2">
+            <div class="d-flex">
+              <div class="box-likes d-flex align-items-center justify-content-center">
+                <a href="#">
+                  <i class="fa-regular fa-thumbs-up"></i>
+                </a>
+                <h2>Like</h2>
+              </div>
+              <div class="box-likes d-flex align-items-center justify-content-center">
+                <a href="#">
+                  <i class="fa-regular fa-comment"></i> </a>
+                <h2>Comment</h2>
+              </div>
+              <div class="box-likes d-flex align-items-center justify-content-center">
+                <a href="#">
+                  <i class="fa-solid fa-share"></i>
+                </a>
+                <h2>Share</h2>
+              </div>
+            </div>
+          </div>
+          <!-- End pop-likes -->
+          <!-- Start user-replay -->
+          <div class="user-replay pt-4">
+            <div class="collection d-flex align-items-center">
+              <div class="image">
+                <img src="image/user.jpg" alt="">
+              </div>
+              <form action="#" class="w-100 position-relative">
+                <input type="text" placeholder="Write A Comment...">
+                <div class="icons">
+                  <i class="fa-solid fa-camera"></i>
+                  <i class="fa-solid fa-note-sticky"></i>
+                  <i class="fa-regular fa-face-smile"></i>
+                  <i class="fa-regular fa-image"></i>
+                </div>
+              </form>
+            </div>
+            <!-- Start Replay -->
+            <div class="replay pt-3">
+              <!-- Test -->
+              <div class="replay-srv d-flex align-items-start mt-2">
+                <div class="image"><img class="bor-imp" src="image/people-6.jpg" alt=""></div>
+                <div class="text">
+                  <h2>Mostafa</h2>
+                  <p class="">
+                    بجد الموضوع بقا مستفز ومقرف وكرهت السوشيال ميديا بسبب الاشكال دي وي افور اوي دا عايزين يوصلو للبنات
+                    والشباب أن دا بقا
+                    عادي انك تصحبي ولاد عادي وتخرجي معاهم وتروحلهم بيوتهم وانا كمان ليااا الحق ومحدش يتحكم في دا دا اي
+                    القرف وقلة الدين
+                    والدياثه دي
+                  </p>
+                </div>
+              </div>
+              <div class="likly">
+                <span>Like</span>
+                <span>Replay</span>
+              </div>
+              <!-- End Test -->
+              <!-- Test -->
+              <div class="replay-srv d-flex align-items-start mt-2">
+                <div class="image"><img class="bor-imp" src="image/people-1.jpg" alt=""></div>
+                <div class="text">
+                  <h2>Ahmed</h2>
+                  <p class="arabic">
+                    برنامج لا يصلح
+                  </p>
+                </div>
+              </div>
+              <div class="likly">
+                <span>Like</span>
+                <span>Replay</span>
+              </div>
+              <!-- End Test -->
+              <!-- Test -->
+              <div class="replay-srv d-flex align-items-start mt-2">
+                <div class="image"><img src="image/Person-8.jpg" alt=""></div>
+                <div class="text">
+                  <h2>Yehia</h2>
+                  <p class="arabic">
+                    يعم داا برنامج تعبان اسكريبت متوزع عليهم حتي كل حلقة تلاقي البنت تقولك عايزة البيست فريند ولد واروح
+                    معاه واجي معاه
+                    ويهكني وانت ملكش فيه
+                  </p>
+                </div>
+              </div>
+              <div class="likly">
+                <span>Like</span>
+                <span>Replay</span>
+              </div>
+              <!-- End Test -->
+              <p class="replay-view">
+                View 150 more comments
+              </p>
+              <!-- End Replay -->
+            </div>
+            <!-- End user-replay -->
+          </div>
+          <!-- End User-Details -5 -->
+        </div>
+        <!-- End User-Detail-5 -->
+        <!-- User-Detail-6 -->
+        <div class="user-details mb-3">
+          <div class="user-top d-flex align-items-center">
+            <div class="image">
+              <img class="bor-imp" src="image/user-info-6.jpg" alt="">
+            </div>
+            <div class="text">
+              <h3>Creative</h3>
+              <span>
+                1 hours ago
+              </span>
+            </div>
+            <div class="icon ms-auto position-relative">
+              <i class="fa-solid fa-ellipsis" id="dots"></i>
+              <ul class="warn">
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-regular fa-bookmark"></i>
+                    </a>
+                    <div class="text">
+                      <h2>Save Post</h2>
+                      <span>
+                        Add this to your saved items.
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-regular fa-bell"></i>
+                    </a>
+                    <div class="text">
+                      <h2>
+                        Turn on notifications for this post
+                      </h2>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-solid fa-code"></i>
+                    </a>
+                    <div class="text">
+                      <h2>Embed</h2>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-solid fa-triangle-exclamation"></i>
+                    </a>
+                    <div class="text">
+                      <h2>Report post</h2>
+                      <span>
+                        I'm concerned about this post.
+                      </span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- End User-Details -->
+          <!-- start User-content -->
+          <div class="user-content pt-2">
+            <p class="arabic">
+              لما يحارب الدنيا كلها عشاني ويجي يتقدملي بس ميرضاش يشرب القهوه اللي حطاله فيها ٣ كيلو ملح
+            </p>
+            <img src="image/user-post-4.jpg" alt="">
+            <div class="like-content d-flex align-items-center pb-2">
+              <div class="right-likes">
+                <img src="image/laugh.png" id="laugh" alt="">
+                <span>1.5K</span>
+              </div>
+              <div class="left-likes d-flex align-items-center ms-auto">
+                <div class="comment d-flex align-items-center me-2">
+                  <span>90</span>
+                  <p>Comments</p>
+                </div>
+                <div class="comment d-flex align-items-center">
+                  <span>110</span>
+                  <p>Shares</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- start User-content -->
+          <!-- Start pop-likes -->
+          <div class="pop-likes pt-2 pb-2">
+            <div class="d-flex">
+              <div class="box-likes d-flex align-items-center justify-content-center">
+                <a href="#">
+                  <i class="fa-regular fa-thumbs-up"></i>
+                </a>
+                <h2>Like</h2>
+              </div>
+              <div class="box-likes d-flex align-items-center justify-content-center">
+                <a href="#">
+                  <i class="fa-regular fa-comment"></i> </a>
+                <h2>Comment</h2>
+              </div>
+              <div class="box-likes d-flex align-items-center justify-content-center">
+                <a href="#">
+                  <i class="fa-solid fa-share"></i>
+                </a>
+                <h2>Share</h2>
+              </div>
+            </div>
+          </div>
+          <!-- End pop-likes -->
+          <!-- Start user-replay -->
+          <div class="user-replay pt-4">
+            <div class="collection d-flex align-items-center">
+              <div class="image">
+                <img src="image/user.jpg" alt="">
+              </div>
+              <form action="#" class="w-100 position-relative">
+                <input type="text" placeholder="Write A Comment...">
+                <div class="icons">
+                  <i class="fa-solid fa-camera"></i>
+                  <i class="fa-solid fa-note-sticky"></i>
+                  <i class="fa-regular fa-face-smile"></i>
+                  <i class="fa-regular fa-image"></i>
+                </div>
+              </form>
+            </div>
+            <!-- Start Replay -->
+            <div class="replay pt-3">
+              <!-- Test -->
+              <div class="replay-srv d-flex align-items-start mt-2">
+                <div class="image"><img src="image/user-1.jpg" alt=""></div>
+                <div class="text">
+                  <h2>Somia</h2>
+                  <p class="arabic">
+                    اكل الجاتوه وافسخ ولا هبان قليلة الأصل
+                  </p>
+                  <img src="image/comic-1.jpg" id="comic-1" alt="">
+                </div>
+              </div>
+              <div class="likly">
+                <span>Like</span>
+                <span>Replay</span>
+              </div>
+              <!-- End Test -->
+              <!-- Test -->
+              <div class="replay-srv d-flex align-items-start mt-2">
+                <div class="image"><img class="bor-imp" src="image/people-3.jpg" alt=""></div>
+                <div class="text">
+                  <h2>Mohamed</h2>
+                  <p class="arabic">
+                    واخدين بعض تخليص حق😂😂😂
+                  </p>
+                </div>
+              </div>
+              <div class="likly">
+                <span>Like</span>
+                <span>Replay</span>
+              </div>
+              <!-- End Test -->
+              <!-- Test -->
+              <div class="replay-srv d-flex align-items-start mt-2">
+                <div class="image"><img src="image/people-2.jpg" alt=""></div>
+                <div class="text">
+                  <h2>Sara</h2>
+                  <p class="arabic">
+                    😂😂😂😂😂😂😂😂😂😂😂😂😂😂
+                  </p>
+                </div>
+              </div>
+              <div class="likly">
+                <span>Like</span>
+                <span>Replay</span>
+              </div>
+              <!-- End Test -->
+              <p class="replay-view">
+                View 120 more comments
+              </p>
+              <!-- End Replay -->
+            </div>
+            <!-- End user-replay -->
+          </div>
+          <!-- End User-Details -6 -->
+        </div>
+        <!-- End User-Detail-6 -->
+        <!-- User-Detail-6 -->
+        <div class="user-details mb-3">
+          <div class="user-top d-flex align-items-center">
+            <div class="image">
+              <img class="bor-imp" src="image/user-info-8.jpg" alt="">
+            </div>
+            <div class="text">
+              <h3>Kareem Esmail</h3>
+              <span>
+                Yesterday at 8:00 PM
+              </span>
+            </div>
+            <div class="icon ms-auto position-relative">
+              <i class="fa-solid fa-ellipsis" id="dots"></i>
+              <ul class="warn">
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-regular fa-bookmark"></i>
+                    </a>
+                    <div class="text">
+                      <h2>Save Post</h2>
+                      <span>
+                        Add this to your saved items.
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-regular fa-bell"></i>
+                    </a>
+                    <div class="text">
+                      <h2>
+                        Turn on notifications for this post
+                      </h2>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-solid fa-code"></i>
+                    </a>
+                    <div class="text">
+                      <h2>Embed</h2>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-solid fa-triangle-exclamation"></i>
+                    </a>
+                    <div class="text">
+                      <h2>Report post</h2>
+                      <span>
+                        I'm concerned about this post.
+                      </span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- End User-Details -->
+          <!-- start User-content -->
+          <div class="user-content pt-2">
+            <p class="arabic">
+              لا تحزن.. فمن يدبر الأمر اسمه
+              <br>
+              "الرحمن" "الرزاق" "الكريم"
+              <br>
+              "العليم" "الحكيم" "الودود"
+              <span>#خواطر</span>
+            </p>
+            <img src="image/user-post-6.jpg" alt="">
+            <div class="like-content d-flex align-items-center pb-2">
+              <div class="right-likes">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <i class="fa-solid fa-heart"></i>
+                <span>1.9K</span>
+              </div>
+              <div class="left-likes d-flex align-items-center ms-auto">
+                <div class="comment d-flex align-items-center me-2">
+                  <span>100</span>
+                  <p>Comments</p>
+                </div>
+                <div class="comment d-flex align-items-center">
+                  <span>190</span>
+                  <p>Shares</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- start User-content -->
+          <!-- Start pop-likes -->
+          <div class="pop-likes pt-2 pb-2">
+            <div class="d-flex">
+              <div class="box-likes d-flex align-items-center justify-content-center">
+                <a href="#">
+                  <i class="fa-regular fa-thumbs-up"></i>
+                </a>
+                <h2>Like</h2>
+              </div>
+              <div class="box-likes d-flex align-items-center justify-content-center">
+                <a href="#">
+                  <i class="fa-regular fa-comment"></i> </a>
+                <h2>Comment</h2>
+              </div>
+              <div class="box-likes d-flex align-items-center justify-content-center">
+                <a href="#">
+                  <i class="fa-solid fa-share"></i>
+                </a>
+                <h2>Share</h2>
+              </div>
+            </div>
+          </div>
+          <!-- End pop-likes -->
+          <!-- Start user-replay -->
+          <div class="user-replay pt-4">
+            <div class="collection d-flex align-items-center">
+              <div class="image">
+                <img src="image/user.jpg" alt="">
+              </div>
+              <form action="#" class="w-100 position-relative">
+                <input type="text" placeholder="Write A Comment...">
+                <div class="icons">
+                  <i class="fa-solid fa-camera"></i>
+                  <i class="fa-solid fa-note-sticky"></i>
+                  <i class="fa-regular fa-face-smile"></i>
+                  <i class="fa-regular fa-image"></i>
+                </div>
+              </form>
+            </div>
+            <!-- Start Replay -->
+            <div class="replay pt-3">
+              <!-- Test -->
+              <div class="replay-srv d-flex align-items-start mt-2">
+                <div class="image"><img src="image/user.jpg" alt=""></div>
+                <div class="text">
+                  <h2>YouseF AdeL</h2>
+                  <p class="arabic">
+                    ونعم بالله العلي العظيم 🤲🏻
+                  </p>
+                </div>
+              </div>
+              <div class="likly">
+                <span>Like</span>
+                <span>Replay</span>
+              </div>
+              <!-- End Test -->
+              <!-- Test -->
+              <div class="replay-srv d-flex align-items-start mt-2">
+                <div class="image"><img src="image/user-2.jpg" alt=""></div>
+                <div class="text">
+                  <h2>Nasser</h2>
+                  <p class="arabic">
+                    ونعمه بالله
+                  </p>
+                </div>
+              </div>
+              <div class="likly">
+                <span>Like</span>
+                <span>Replay</span>
+              </div>
+              <!-- End Test -->
+              <!-- Test -->
+              <div class="replay-srv d-flex align-items-start mt-2">
+                <div class="image"><img class="bor-imp" src="image/people-4.jpg" alt=""></div>
+                <div class="text">
+                  <h2>Eman</h2>
+                  <p class="arabic">
+                    ونعم بالله عليه توكلت وهو رب العرش العظيم
+                  </p>
+                </div>
+              </div>
+              <div class="likly">
+                <span>Like</span>
+                <span>Replay</span>
+              </div>
+              <!-- End Test -->
+              <p class="replay-view">
+                View 120 more comments
+              </p>
+              <!-- End Replay -->
+            </div>
+            <!-- End user-replay -->
+          </div>
+          <!-- End User-Details -7 -->
+        </div>
+        <!-- End User-Detail -->
+        <!-- User-Detail-8 -->
+        <div class="user-details mb-3">
+          <div class="user-top d-flex align-items-center">
+            <div class="image">
+              <img class="bor-imp" src="image/user-info-7.jpg" alt="">
+            </div>
+            <div class="text">
+              <h3>Adham Ibrahim</h3>
+              <span>
+                Today at 11:00 AM
+              </span>
+            </div>
+            <div class="icon ms-auto position-relative">
+              <i class="fa-solid fa-ellipsis" id="dots"></i>
+              <ul class="warn">
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-regular fa-bookmark"></i>
+                    </a>
+                    <div class="text">
+                      <h2>Save Post</h2>
+                      <span>
+                        Add this to your saved items.
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-regular fa-bell"></i>
+                    </a>
+                    <div class="text">
+                      <h2>
+                        Turn on notifications for this post
+                      </h2>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-solid fa-code"></i>
+                    </a>
+                    <div class="text">
+                      <h2>Embed</h2>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="warn-srv d-flex align-items-center">
+                    <a href="#">
+                      <i class="fa-solid fa-triangle-exclamation"></i>
+                    </a>
+                    <div class="text">
+                      <h2>Report post</h2>
+                      <span>
+                        I'm concerned about this post.
+                      </span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- End User-Details -->
+          <!-- start User-content -->
+          <div class="user-content pt-2">
+            <p class="arabic">
+              ورد اليوم ❤️
+            </p>
+            <img src="image/user-post-5.jpg" alt="">
+            <div class="like-content d-flex align-items-center pb-2">
+              <div class="right-likes">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <i class="fa-solid fa-heart"></i>
+                <span>1.3K</span>
+              </div>
+              <div class="left-likes d-flex align-items-center ms-auto">
+                <div class="comment d-flex align-items-center me-2">
+                  <span>80</span>
+                  <p>Comments</p>
+                </div>
+                <div class="comment d-flex align-items-center">
+                  <span>60</span>
+                  <p>Shares</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- start User-content -->
+          <!-- Start pop-likes -->
+          <div class="pop-likes pt-2 pb-2">
+            <div class="d-flex">
+              <div class="box-likes d-flex align-items-center justify-content-center">
+                <a href="#">
+                  <i class="fa-regular fa-thumbs-up"></i>
+                </a>
+                <h2>Like</h2>
+              </div>
+              <div class="box-likes d-flex align-items-center justify-content-center">
+                <a href="#">
+                  <i class="fa-regular fa-comment"></i> </a>
+                <h2>Comment</h2>
+              </div>
+              <div class="box-likes d-flex align-items-center justify-content-center">
+                <a href="#">
+                  <i class="fa-solid fa-share"></i>
+                </a>
+                <h2>Share</h2>
+              </div>
+            </div>
+          </div>
+          <!-- End pop-likes -->
+          <!-- Start user-replay -->
+          <div class="user-replay pt-4">
+            <div class="collection d-flex align-items-center">
+              <div class="image">
+                <img src="image/user.jpg" alt="">
+              </div>
+              <form action="#" class="w-100 position-relative">
+                <input type="text" placeholder="Write A Comment...">
+                <div class="icons">
+                  <i class="fa-solid fa-camera"></i>
+                  <i class="fa-solid fa-note-sticky"></i>
+                  <i class="fa-regular fa-face-smile"></i>
+                  <i class="fa-regular fa-image"></i>
+                </div>
+              </form>
+            </div>
+            <!-- Start Replay -->
+            <div class="replay pt-3">
+              <!-- Test -->
+              <div class="replay-srv d-flex align-items-start mt-2">
+                <div class="image"><img src="image/user-3.jpg" alt=""></div>
+                <div class="text">
+                  <h2>Shahd</h2>
+                  <p class="arabic">
+                    صدق الله العظيم
+                  </p>
+                </div>
+              </div>
+              <div class="likly">
+                <span>Like</span>
+                <span>Replay</span>
+              </div>
+              <!-- End Test -->
+              <!-- Test -->
+              <div class="replay-srv d-flex align-items-start mt-2">
+                <div class="image"><img class="bor-imp" src="image/people-6.jpg" alt=""></div>
+                <div class="text">
+                  <h2>Nasser</h2>
+                  <p class="arabic">
+                    🥰🥰🥰🥰
+                  </p>
+                </div>
+              </div>
+              <div class="likly">
+                <span>Like</span>
+                <span>Replay</span>
+              </div>
+              <!-- End Test -->
+              <!-- Test -->
+              <div class="replay-srv d-flex align-items-start mt-2">
+                <div class="image"><img class="bor-imp" src="image/people-3.jpg" alt=""></div>
+                <div class="text">
+                  <h2>Mohamed</h2>
+                  <p class="arabic">
+                    💕💕💕💕
+                  </p>
+                </div>
+              </div>
+              <div class="likly">
+                <span>Like</span>
+                <span>Replay</span>
+              </div>
+              <!-- End Test -->
+              <p class="replay-view">
+                View 80 more comments
+              </p>
+              <!-- End Replay -->
+            </div>
+          </div>
+        </div>
+      <p class="theEnd-middle">Made By <span>YouseF AdeL</span> <i class="fa-solid fa-heart"></i></p>
+      </div>
+    </div>
+    <!-- Right -->
+    <div class="col-12 col-md-12 col-lg-3"></div>
+  </div>
+  <!-- End Content -->
+  <!-- Tst -->
+  <script src="js/main.js"></script>
+  <script src="js/jquery-3.6.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      // Optional parameters
+      loop: true,
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+      // And if we need scrollbar
+      scrollbar: {
+        el: '.swiper-scrollbar',
+      },
+      // Default parameters
+      slidesPerView: 4,
+      spaceBetween: 30,
+      // Responsive breakpoints
+      breakpoints: {
+        // when window width is >= 320px
+        320: {
+          slidesPerView: 2,
+          spaceBetween: 20
+        },
+        // when window width is >= 480px
+        480: {
+          slidesPerView: 3,
+          spaceBetween: 30
+        },
+        // when window width is >= 640px
+        640: {
+          slidesPerView: 4,
+          spaceBetween: 30
+        }
+      }
+    });
+  </script>
+  <!-- Test -->
+</body>
+
+</html>
